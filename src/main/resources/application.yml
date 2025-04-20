@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-docker
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/demo_db
+    username: admin
+    password: admin
